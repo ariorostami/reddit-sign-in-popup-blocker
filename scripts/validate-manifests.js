@@ -18,7 +18,15 @@ for (const manifestPath of manifests) {
   const name = path.basename(manifestPath);
 
   assert(manifest.manifest_version === 3, `${name}: expected Manifest V3`);
-  assert(manifest.version === "1.0.1", `${name}: expected version 1.0.1`);
+  assert(manifest.version === "1.0.2", `${name}: expected version 1.0.2`);
+
+  if (name === "firefox.json") {
+    assert(
+      manifest.browser_specific_settings.gecko.data_collection_permissions.required.includes("none"),
+      `${name}: expected no-data-collection declaration`
+    );
+    assert(manifest.browser_specific_settings.gecko_android, `${name}: expected Firefox for Android settings`);
+  }
   assert(!manifest.permissions, `${name}: should not request extension API permissions`);
   assert(!manifest.host_permissions, `${name}: should not request separate host_permissions`);
   assert(Array.isArray(manifest.content_scripts), `${name}: expected content_scripts`);

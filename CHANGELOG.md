@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 - 2026-08-20
+
+- Added Firefox AMO no-data-collection manifest declaration.
+- Declared Firefox for Android compatibility in the Firefox manifest.
+
 ## 1.0.1 - 2026-08-20
 
 - Renamed the extension to Reddit Sign-In Popup Blocker for clearer store searchability.

@@ -8,7 +8,7 @@
 })(typeof globalThis !== "undefined" ? globalThis : window, function createBlocker() {
   "use strict";
 
-  const VERSION = "1.0.1";
+  const VERSION = "1.0.2";
   const SCROLL_LOCK_CLASS = "rpl-scroll-lock";
   const BLOCKER_SELECTORS = [
     "#desktop-dynamic-upsell-dialog",

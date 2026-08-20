@@ -1,6 +1,6 @@
 {
   "name": "reddit-sign-in-popup-blocker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Chrome and Firefox extension that removes Reddit's blocking sign-in popup from public pages.",
   "private": true,
   "license": "MIT",
