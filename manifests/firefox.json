@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Reddit Logged-Out Upsell Blocker",
-  "short_name": "Reddit Upsell Blocker",
-  "version": "1.0.0",
-  "description": "Removes Reddit's blocking sign-in upsell while browsing logged out.",
+  "name": "Reddit Sign-In Popup Blocker",
+  "short_name": "Reddit Popup Blocker",
+  "version": "1.0.1",
+  "description": "Removes Reddit's blocking sign-in popup while browsing logged out.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "reddit-logged-out-upsell-blocker@ariorostami.github.io",
+      "id": "reddit-sign-in-popup-blocker@ariorostami.github.io",
       "strict_min_version": "109.0"
     }
   },

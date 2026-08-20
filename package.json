@@ -1,7 +1,7 @@
 {
-  "name": "reddit-logged-out-upsell-blocker",
-  "version": "1.0.0",
-  "description": "Chrome and Firefox extension that removes Reddit's logged-out blocking sign-in upsell from public pages.",
+  "name": "reddit-sign-in-popup-blocker",
+  "version": "1.0.1",
+  "description": "Chrome and Firefox extension that removes Reddit's blocking sign-in popup from public pages.",
   "private": true,
   "license": "MIT",
   "scripts": {

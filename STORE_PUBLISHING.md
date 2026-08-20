@@ -2,17 +2,17 @@
 
 ## Store Name
 
-Reddit Logged-Out Upsell Blocker
+Reddit Sign-In Popup Blocker
 
 ## Short Description
 
-Removes Reddit's blocking sign-in upsell while browsing logged out.
+Removes Reddit's blocking sign-in popup while browsing logged out.
 
 ## Long Description
 
-Reddit Logged-Out Upsell Blocker removes Reddit's client-side blocking sign-in upsell from otherwise publicly accessible Reddit pages and restores normal scrolling when the dialog locks the page.
+Reddit Sign-In Popup Blocker removes Reddit's client-side blocking sign-in popup from otherwise publicly accessible Reddit pages and restores normal scrolling when the dialog locks the page.
 
-The extension runs only on `reddit.com` pages. It uses a small content script and CSS file to hide and remove the specific logged-out blocking upsell, including known selectors such as `#desktop-dynamic-upsell-dialog` and `rpl-dialog-sheet#desktop-dynamic-upsell`.
+The extension runs only on `reddit.com` pages. It uses a small content script and CSS file to hide and remove the specific logged-out blocking sign-in popup, including known selectors such as `#desktop-dynamic-upsell-dialog` and `rpl-dialog-sheet#desktop-dynamic-upsell`.
 
 It does not bypass private communities, account-only features, authentication, bans, rate limits, or Reddit API access controls. It only changes the local presentation of public pages in the browser.
 
@@ -22,7 +22,7 @@ This project is not affiliated with, endorsed by, or sponsored by Reddit, Inc. R
 
 ## Single-Purpose Statement
 
-Remove Reddit's logged-out blocking sign-in upsell from otherwise accessible public Reddit pages and restore scrolling when the dialog locks the page.
+Remove Reddit's logged-out blocking sign-in popup from otherwise accessible public Reddit pages and restore scrolling when the dialog locks the page.
 
 ## Privacy Answers
 
@@ -41,7 +41,7 @@ The extension has:
 
 ## Permissions Explanation
 
-The extension needs access to `https://www.reddit.com/*` and `https://reddit.com/*` so its content script and CSS can run on Reddit pages, detect the logged-out blocking upsell, remove it, and restore scrolling.
+The extension needs access to `https://www.reddit.com/*` and `https://reddit.com/*` so its content script and CSS can run on Reddit pages, detect the logged-out blocking sign-in popup, remove it, and restore scrolling.
 
 It does not request `tabs`, `storage`, `cookies`, `webRequest`, `history`, or other broad extension API permissions.
 
@@ -58,7 +58,7 @@ The code does not modify network requests, does not read credentials, does not c
 Submit:
 
 ```text
-release/reddit-upsell-blocker-chrome.zip
+release/reddit-sign-in-popup-blocker-chrome.zip
 ```
 
 ## Firefox AMO Notes
@@ -66,7 +66,7 @@ release/reddit-upsell-blocker-chrome.zip
 The Firefox manifest includes the stable Gecko ID:
 
 ```text
-reddit-logged-out-upsell-blocker@ariorostami.github.io
+reddit-sign-in-popup-blocker@ariorostami.github.io
 ```
 
 AMO reviewer summary:
@@ -82,5 +82,5 @@ AMO reviewer summary:
 Submit:
 
 ```text
-release/reddit-upsell-blocker-firefox.zip
+release/reddit-sign-in-popup-blocker-firefox.zip
 ```

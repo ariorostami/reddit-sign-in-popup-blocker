@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
-  <title id="title">Reddit Logged-Out Upsell Blocker promotional placeholder</title>
+  <title id="title">Reddit Sign-In Popup Blocker promotional placeholder</title>
   <desc id="desc">A generic browser page with a crossed-out modal dialog.</desc>
   <rect width="1400" height="560" fill="#f7fafb"/>
   <rect x="120" y="86" width="1160" height="388" rx="18" fill="#ffffff" stroke="#cad7dc" stroke-width="4"/>
@@ -16,5 +16,5 @@
   <rect x="902" y="286" width="118" height="18" rx="5" fill="#78909a"/>
   <path d="M858 390 1128 186" stroke="#dc3e44" stroke-width="34" stroke-linecap="round"/>
   <path d="M858 390 1128 186" stroke="#fff5ee" stroke-width="14" stroke-linecap="round"/>
-  <text x="120" y="526" fill="#234047" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Remove the blocking sign-in upsell on public Reddit pages</text>
+  <text x="120" y="526" fill="#234047" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Remove the blocking sign-in popup on public Reddit pages</text>
 </svg>

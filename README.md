@@ -1,20 +1,20 @@
-# Reddit Logged-Out Upsell Blocker
+# Reddit Sign-In Popup Blocker
 
-A small Chrome and Firefox extension that removes Reddit's client-side blocking sign-in upsell from otherwise publicly accessible desktop pages and restores normal scrolling.
+A small Chrome and Firefox extension that removes Reddit's client-side blocking sign-in popup from otherwise publicly accessible desktop pages and restores normal scrolling.
 
 This project is not affiliated with, endorsed by, or sponsored by Reddit, Inc. Reddit is a trademark of its respective owner.
 
 ## What It Solves
 
-Reddit can show logged-out desktop visitors a blocking "sign in / join Reddit to continue" upsell after some browsing. The dialog darkens the page and applies a scroll lock even when the page content is otherwise public.
+Reddit can show logged-out desktop visitors a blocking "sign in / join Reddit to continue" popup after some browsing. The dialog darkens the page and applies a scroll lock even when the page content is otherwise public.
 
-This extension removes that specific client-side blocking upsell. It does not bypass private communities, account-only features, authentication, bans, rate limits, or Reddit API access controls.
+This extension removes that specific client-side blocking sign-in popup. It does not bypass private communities, account-only features, authentication, bans, rate limits, or Reddit API access controls.
 
 ## Screenshots
 
 Screenshots can be added before store submission:
 
-- Before: blocking logged-out upsell visible.
+- Before: blocking logged-out sign-in popup visible.
 - After: public page visible and scrollable.
 
 ## How It Works
@@ -24,7 +24,7 @@ The extension uses a content script and CSS injected at `document_start` on:
 - `https://www.reddit.com/*`
 - `https://reddit.com/*`
 
-The CSS hides known blocking upsell elements early to reduce flashing. JavaScript then removes the matching element, removes Reddit's `body.rpl-scroll-lock` class, and watches for future inserts with a `MutationObserver`.
+The CSS hides known blocking sign-in popup elements early to reduce flashing. JavaScript then removes the matching element, removes Reddit's `body.rpl-scroll-lock` class, and watches for future inserts with a `MutationObserver`.
 
 The cleanup is idempotent, so repeated inserts or route changes are safe.
 
@@ -69,7 +69,7 @@ It intentionally does not delete every element containing broad words such as `l
 3. Choose "Load Temporary Add-on".
 4. Select `dist/firefox/manifest.json`.
 
-For AMO submission, upload `release/reddit-upsell-blocker-firefox.zip`.
+For AMO submission, upload `release/reddit-sign-in-popup-blocker-firefox.zip`.
 
 ## Build
 
@@ -83,8 +83,8 @@ The build creates:
 
 - `dist/chrome/`
 - `dist/firefox/`
-- `release/reddit-upsell-blocker-chrome.zip`
-- `release/reddit-upsell-blocker-firefox.zip`
+- `release/reddit-sign-in-popup-blocker-chrome.zip`
+- `release/reddit-sign-in-popup-blocker-firefox.zip`
 
 The JavaScript is not minified or obfuscated.
 
@@ -121,7 +121,7 @@ This extension does not:
 - Evade bans or rate limits
 - Automate voting, posting, or scraping private content
 
-It only changes local page presentation for the logged-out blocking upsell on public Reddit pages.
+It only changes local page presentation for the logged-out blocking sign-in popup on public Reddit pages.
 
 ## Contributing
 

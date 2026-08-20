@@ -27,7 +27,7 @@ function buildTarget(target) {
   copyRecursive(path.join(root, "assets", "icons"), path.join(outDir, "assets", "icons"));
   fs.copyFileSync(path.join(root, "manifests", target.manifest), path.join(outDir, "manifest.json"));
 
-  const zipPath = path.join(release, `reddit-upsell-blocker-${target.name}.zip`);
+  const zipPath = path.join(release, `reddit-sign-in-popup-blocker-${target.name}.zip`);
   fs.rmSync(zipPath, { force: true });
   execFileSync("zip", ["-qr", zipPath, "."], { cwd: outDir, stdio: "inherit" });
   console.log(`Built ${target.name}: ${path.relative(root, outDir)} and ${path.relative(root, zipPath)}`);

@@ -18,7 +18,7 @@ for (const manifestPath of manifests) {
   const name = path.basename(manifestPath);
 
   assert(manifest.manifest_version === 3, `${name}: expected Manifest V3`);
-  assert(manifest.version === "1.0.0", `${name}: expected version 1.0.0`);
+  assert(manifest.version === "1.0.1", `${name}: expected version 1.0.1`);
   assert(!manifest.permissions, `${name}: should not request extension API permissions`);
   assert(!manifest.host_permissions, `${name}: should not request separate host_permissions`);
   assert(Array.isArray(manifest.content_scripts), `${name}: expected content_scripts`);

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 - 2026-08-20
+
+- Renamed the extension to Reddit Sign-In Popup Blocker for clearer store searchability.
+- Updated build artifact names and store publishing guidance.
+
 ## 1.0.0 - 2026-08-19
 
 - Initial Chrome and Firefox extension release.
