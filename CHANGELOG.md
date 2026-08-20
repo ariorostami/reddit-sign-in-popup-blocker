@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3 - 2026-08-20
+
+- Limited the Firefox submission target to desktop Firefox while Android behavior awaits device testing.
+
 ## 1.0.2 - 2026-08-20
 
 - Added Firefox AMO no-data-collection manifest declaration.

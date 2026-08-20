@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Reddit Sign-In Popup Blocker",
   "short_name": "Reddit Popup Blocker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Removes Reddit's blocking sign-in popup while browsing logged out.",
   "icons": {
     "16": "assets/icons/icon-16.png",
