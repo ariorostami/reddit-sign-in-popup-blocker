@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
+  <title id="title">Reddit Logged-Out Upsell Blocker promotional placeholder</title>
+  <desc id="desc">A generic browser page with a crossed-out modal dialog.</desc>
+  <rect width="1400" height="560" fill="#f7fafb"/>
+  <rect x="120" y="86" width="1160" height="388" rx="18" fill="#ffffff" stroke="#cad7dc" stroke-width="4"/>
+  <rect x="120" y="86" width="1160" height="58" rx="18" fill="#186f7e"/>
+  <circle cx="158" cy="115" r="9" fill="#ffede9"/>
+  <circle cx="189" cy="115" r="9" fill="#ffede9"/>
+  <circle cx="220" cy="115" r="9" fill="#ffede9"/>
+  <rect x="184" y="204" width="496" height="24" rx="6" fill="#9bb1b9"/>
+  <rect x="184" y="256" width="744" height="18" rx="5" fill="#d1dde1"/>
+  <rect x="184" y="292" width="666" height="18" rx="5" fill="#d1dde1"/>
+  <rect x="184" y="328" width="702" height="18" rx="5" fill="#d1dde1"/>
+  <rect x="854" y="194" width="266" height="188" rx="14" fill="#f5fafb" stroke="#9bb1b9" stroke-width="4"/>
+  <rect x="902" y="244" width="170" height="18" rx="5" fill="#78909a"/>
+  <rect x="902" y="286" width="118" height="18" rx="5" fill="#78909a"/>
+  <path d="M858 390 1128 186" stroke="#dc3e44" stroke-width="34" stroke-linecap="round"/>
+  <path d="M858 390 1128 186" stroke="#fff5ee" stroke-width="14" stroke-linecap="round"/>
+  <text x="120" y="526" fill="#234047" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Remove the blocking sign-in upsell on public Reddit pages</text>
+</svg>

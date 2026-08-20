@@ -1,0 +1,17 @@
+{
+  "name": "reddit-logged-out-upsell-blocker",
+  "version": "1.0.0",
+  "description": "Chrome and Firefox extension that removes Reddit's logged-out blocking sign-in upsell from public pages.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run",
+    "build": "node scripts/build.js",
+    "validate:manifests": "node scripts/validate-manifests.js",
+    "ci": "npm run validate:manifests && npm test && npm run build"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1",
+    "vitest": "^4.1.11"
+  }
+}
